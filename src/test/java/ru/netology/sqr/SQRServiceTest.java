@@ -10,8 +10,7 @@ public class SQRServiceTest {
     @ParameterizedTest
     @CsvSource({
             "3,200,300",
-            "1,100,101",
-            "4,200,300"
+            "1,100,101"
     })
     public void testSquareCount(int expected, int start, int end) {
         SQRService service = new SQRService();

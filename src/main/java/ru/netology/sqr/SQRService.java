@@ -9,7 +9,7 @@ public class SQRService {
             if (i * i < start) {
                 continue;
             } else if (i * i > end) {
-                continue;
+                break;
             } else {
                 result++;
             }
